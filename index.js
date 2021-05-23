@@ -37,8 +37,6 @@ app.get("/", (req, res) => {
    res.status(418).send({"name":"Peter", "age":99});
 });
 
-
-
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 app.get("/api/movies", (req, res) => {
     // reply with all the movies in the database
