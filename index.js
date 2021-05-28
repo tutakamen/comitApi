@@ -35,6 +35,7 @@ let upcomingMovies = [
  
 // 2. Reply as JSON
 app.get("/", (req, res) => {
+    //.status is the reponse code whihc is important for API development !
    res.status(418).send({"name":"Peter", "age":99});
 });
 
